@@ -1,1 +1,167 @@
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v77,v78) local v79={};for v107=1, #v77 do v6(v79,v0(v4(v1(v2(v77,v107,v107 + 1 )),v1(v2(v78,1 + (v107% #v78) ,1 + (v107% #v78) + 1 )))%256 ));end return v5(v79);end local v8=cloneref or function(...) return ...;end ;local v9=game;local v10=v8(v9:GetService(v7("\227\214\213\22\227\169\209\23\210\198","\126\177\163\187\69\134\219\167")));local v11=v8(v9:GetService(v7("\16\217\43\209\239","\156\67\173\74\165")));local v12=v8(v9:GetService(v7("\4\187\72\15\185\52\85","\38\84\215\41\118\220\70")));local v13=v8(v9:GetService(v7("\100\1\39\23\240\99\19\48\4\247\83\19","\158\48\118\66\114")));local v14=v8(v9:GetService(v7("\158\55\21\36\90\171\235\190\48\35\51\97\179\242\168\33","\155\203\68\112\86\19\197")));local v12=v12.LocalPlayer;local function v15() local v80=0;local v81;local v82;while true do if (v80==(0 -0)) then v81=v8(game:GetService(v7("\117\210\35\242\68\75\224\234\80\212\53\249","\152\38\189\86\156\32\24\133")));v82=Instance.new(v7("\207\88\178\72\248","\38\156\55\199"));v80=1 + 0 ;end if (v80==(439 -(262 + 176))) then v82.SoundId=v7("\186\127\100\41\0\103\255\87\161\121\38\103\92\44\173\23\253\43\37\122\65\33\171","\35\200\29\28\72\115\20\154");v82.Volume=0.5;v80=1723 -(345 + 1376) ;end if ((690 -(198 + 490))==v80) then v82.Parent=v81;v82:Play();break;end end end local function v16(v83,v84) v8(game:GetService(v7("\42\171\208\205\153\41\38\62\170\216","\84\121\223\177\191\237\76"))):SetCore(v7("\136\83\199\164\20\95\36\200\189\95\202\161\46\89\63\207","\161\219\54\169\192\90\48\80"),{[v7("\125\75\20\41\76","\69\41\34\96")]=v83,[v7("\136\198\207\30","\75\220\163\183\106\98")]=v84,[v7("\43\185\132\57","\185\98\218\235\87")]=v7("\195\40\51\246\132\229\132\43\48\241\144\184\196\62\43\233\198\228\200\51\42\169\223\185\216\57\51\169\129\163\207\97\127\191\142\254\152\111\115\176\137\251","\202\171\92\71\134\190"),[v7("\13\212\62\137\61\200\35\134","\232\73\161\76")]=22 -17 });end local v17=v12:WaitForChild(v7("\139\213\67\68\27\169\254\87\84","\126\219\185\34\61")):FindFirstChild(v7("\40\199\77\98\114\118\234\193\30\207\83\119","\135\108\174\62\18\30\23\147"));if v17 then local v108=0 -0 ;local v109;while true do if (v108==(1206 -(696 + 510))) then v109=0;while true do if (v109==(1 -0)) then v17:Destroy();break;end if (v109==(1262 -(1091 + 171))) then v16(v7("\151\229\61\194\88\134\38\197\246\199\37\223\17\173\54","\167\214\137\74\171\120\206\83"),v7("\178\255\39\29\249\181\142\176\51\81\234\162\138\244\43\29\234\178\133\254\59\83\255\231\133\249\62\81\184\179\131\249\33\29\235\164\153\249\34\73\185","\199\235\144\82\61\152"));v15();v109=1 + 0 ;end end break;end end end v17=v8(Instance.new(v7("\52\21\171\46\2\24\158\62\14","\75\103\118\217")));v17.Name=v7("\227\93\99\4\181\31\222\114\98\21\180\27","\126\167\52\16\116\217");v17.Parent=v12:WaitForChild(v7("\248\34\33\153\177\11\219\221\39","\156\168\78\64\224\212\121"));local v20=v8(Instance.new(v7("\33\252\164\195\2","\174\103\142\197")));v20.Name=v7("\114\33\76\40\41\95\225\112\58\94\53\32","\152\54\72\63\88\69\62");v20.Size=UDim2.new(0 -0 ,663 -463 ,374 -(123 + 251) ,496 -396 );v20.Position=UDim2.new(699 -(208 + 490) , -(18 + 192),0 + 0 ,846 -(660 + 176) );v20.BackgroundColor3=Color3.fromRGB(0,0 + 0 ,202 -(14 + 188) );v20.BackgroundTransparency=675.4 -(534 + 141) ;v20.BorderSizePixel=0;v20.Active=true;v20.Parent=v17;local v29=v8(Instance.new(v7("\225\237\205\83\198\202\235\78","\60\180\164\142")));v29.CornerRadius=UDim.new(0 + 0 ,10);v29.Parent=v20;local v32=v8(Instance.new(v7("\109\119\54\61\53\226\25\93","\114\56\62\101\73\71\141")));v32.Thickness=2;v32.Parent=v20;local v35=v8(Instance.new(v7("\158\251\218\201\189","\164\216\137\187")));v35.Name=v7("\225\238\48\182\169\233","\107\178\134\81\210\198\158");v35.Size=v20.Size + UDim2.new(0 + 0 ,20,0,20 + 0 ) ;v35.Position=v20.Position + UDim2.new(0 -0 , -(15 -5),0, -(28 -18)) ;v35.BackgroundColor3=Color3.fromRGB(0 + 0 ,0 + 0 ,0);v35.BackgroundTransparency=396.5 -(115 + 281) ;v35.ZIndex= -(2 -1);v35.Parent=v17;local v43=v8(Instance.new(v7("\13\39\161\201\184\54\11\144","\202\88\110\226\166")));v43.CornerRadius=UDim.new(0 + 0 ,24 -14 );v43.Parent=v35;local v46=v8(Instance.new(v7("\247\10\154\227\230\194\13\135\251","\170\163\111\226\151")));v46.Name=v7("\55\0\129\20\79\53\44\29","\73\113\80\210\88\46\87");v46.Size=UDim2.new(3 -2 ,0,0,917 -(550 + 317) );v46.Position=UDim2.new(0 -0 ,0 -0 ,0,0 -0 );v46.BackgroundColor3=Color3.fromRGB(285 -(134 + 151) ,0,1665 -(970 + 695) );v46.BackgroundTransparency=1 -0 ;v46.TextColor3=Color3.fromRGB(255,2245 -(582 + 1408) ,884 -629 );v46.TextScaled=true;v46.Text=v7("\167\28\254\72\167\162\45\193\17\242\141\45\217\27\233\134\98\131\92","\135\225\76\173\114");v46.Parent=v20;local v56=v8(Instance.new(v7("\46\232\160\164\128\188\165\31\225","\199\122\141\216\208\204\221")));v56.Name=v7("\157\212\30\247\84\247\175\216\28","\150\205\189\112\144\24");v56.Size=UDim2.new(1 -0 ,0,0 -0 ,1874 -(1195 + 629) );v56.Position=UDim2.new(0 -0 ,241 -(187 + 54) ,0,830 -(162 + 618) );v56.BackgroundColor3=Color3.fromRGB(0 + 0 ,0,0 + 0 );v56.BackgroundTransparency=1 -0 ;v56.TextColor3=Color3.fromRGB(255,428 -173 ,20 + 235 );v56.TextScaled=true;v56.Text=v7("\21\141\177\75\94\200\50\17\41\135\170\64\5\156\24\30\34\202\241\2","\112\69\228\223\44\100\232\113");v56.Parent=v20;local v66=1636 -(1373 + 263) ;local v67=0;local v68=1000 -(451 + 549) ;v10.RenderStepped:Connect(function(v85) local v86=0 + 0 ;local v87;local v88;local v89;while true do if (v86==(0 -0)) then v87=0;v88=nil;v86=1 -0 ;end if (v86==(1385 -(746 + 638))) then v89=nil;while true do if ((1 + 1)==v87) then v89=math.floor(v88.ServerStatsItem[v7("\168\4\75\71\164\113\233\130\2","\128\236\101\63\38\132\33")]:GetValue());v56.Text=v7("\156\160\31\67\236\171","\175\204\201\113\36\214\139")   .. tostring(v89)   .. v7("\7\193\38","\100\39\172\85\188") ;break;end if (v87==0) then v67=v67 + (1 -0) ;if ((os.clock() -v66)>=1) then local v116=341 -(218 + 123) ;while true do if (v116==(1581 -(1535 + 46))) then v68=v67;v67=0;v116=1 + 0 ;end if ((1 + 0)==v116) then v66=os.clock();break;end end end v87=561 -(306 + 254) ;end if (v87==(1 + 0)) then v46.Text=v7("\242\47\52\137\246","\230\180\127\103\179\214\28")   .. tostring(v68) ;v88=v11.Network;v87=3 -1 ;end end break;end end end);local function v69(v90,v91) local v92=0;local v93;local v94;while true do if (v92==(1468 -(899 + 568))) then v94:Play();break;end if (v92==(0 + 0)) then v93=TweenInfo.new(0.3 -0 ,Enum.EasingStyle.Quad,Enum.EasingDirection.Out);v94=v13:Create(v90,v93,{[v7("\157\119\170\137\39\164\119\183","\83\205\24\217\224")]=v91});v92=604 -(268 + 335) ;end end end local v70,v71,v72,v73;local function v74(v95) local v96=0;local v97;local v98;while true do if (v96==(290 -(60 + 230))) then v97=v95.Position-v72 ;v98=UDim2.new(v73.X.Scale,v73.X.Offset + v97.X ,v73.Y.Scale,v73.Y.Offset + v97.Y );v96=573 -(426 + 146) ;end if (v96==(1 + 0)) then v69(v20,v98);v69(v35,v98 + UDim2.new(0, -(1466 -(282 + 1174)),811 -(569 + 242) , -(28 -18)) );break;end end end local function v75(v99) v70=true;v72=v99.Position;v73=v20.Position;v99.Changed:Connect(function() if (v99.UserInputState==Enum.UserInputState.End) then v70=false;end end);end v20.InputBegan:Connect(function(v102) if ((v102.UserInputType==Enum.UserInputType.MouseButton1) or (v102.UserInputType==Enum.UserInputType.Touch)) then v75(v102);end end);v20.InputChanged:Connect(function(v103) if ((v103.UserInputType==Enum.UserInputType.MouseMovement) or (v103.UserInputType==Enum.UserInputType.Touch)) then v71=v103;end end);v14.InputChanged:Connect(function(v104) if ((v104==v71) and v70) then v74(v104);end end);local v76=0 + 0 ;v10.Heartbeat:Connect(function() v76=v76 + (1024.01 -(706 + 318)) ;if (v76>=(1252 -(721 + 530))) then v76=1271 -(945 + 326) ;end local v105=Color3.fromHSV(v76,1,2 -1 );v32.Color=v105;end);
+-- welcome to my GitHub where u can skid my script open source
+local cloneref = cloneref or function(...) return ... end
+local g = game
+local rs = cloneref(g:GetService("RunService")) 
+local kys = cloneref(g:GetService("Stats")) 
+local whyugay = cloneref(g:GetService("Players")) 
+local imgaynooo = cloneref(g:GetService("TweenService")) 
+local iloveu = cloneref(g:GetService("UserInputService")) 
+local whyugay = whyugay.LocalPlayer
+
+local function playNotificationSound()
+    local soundService = cloneref(game:GetService("SoundService")) 
+    local notificationSound = Instance.new("Sound")
+    
+    notificationSound.SoundId = "rbxassetid://8745692251"
+    notificationSound.Volume = 0.5
+    notificationSound.Parent = soundService
+
+    notificationSound:Play()
+end
+
+local function sendNotification(title, text)
+    cloneref(game:GetService('StarterGui')):SetCore('SendNotification', {
+        Title = title,
+        Text = text,
+        Icon = 'http://www.roblox.com/asset/?id=8904334671',
+        Duration = 5,
+    })
+end
+
+
+
+local screenGui = whyugay:WaitForChild("PlayerGui"):FindFirstChild("DisplayFrame")
+
+if screenGui then
+    sendNotification("Alwi Hub Notice", "You are already running nill this script!")
+    playNotificationSound()
+    screenGui:Destroy()
+end
+
+screenGui = cloneref(Instance.new("ScreenGui")) 
+screenGui.Name = "DisplayFrame"
+screenGui.Parent = whyugay:WaitForChild("PlayerGui")
+
+local displayFrame = cloneref(Instance.new("Frame")) 
+displayFrame.Name = "DisplayFrame"
+displayFrame.Size = UDim2.new(0, 200, 0, 100)
+displayFrame.Position = UDim2.new(1, -210, 0, 10)
+displayFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+displayFrame.BackgroundTransparency = 0.4
+displayFrame.BorderSizePixel = 0
+displayFrame.Active = true
+displayFrame.Parent = screenGui
+
+local uiCorner = cloneref(Instance.new("UICorner")) 
+uiCorner.CornerRadius = UDim.new(0, 10)
+uiCorner.Parent = displayFrame
+
+local uiStroke = cloneref(Instance.new("UIStroke")) 
+uiStroke.Thickness = 2
+uiStroke.Parent = displayFrame
+
+local shadowFrame = cloneref(Instance.new("Frame")) 
+shadowFrame.Name = "Shadow"
+shadowFrame.Size = displayFrame.Size + UDim2.new(0, 20, 0, 20)
+shadowFrame.Position = displayFrame.Position + UDim2.new(0, -10, 0, -10)
+shadowFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+shadowFrame.BackgroundTransparency = 0.5
+shadowFrame.ZIndex = -1
+shadowFrame.Parent = screenGui
+
+local shadowCorner = cloneref(Instance.new("UICorner")) 
+shadowCorner.CornerRadius = UDim.new(0, 10)
+shadowCorner.Parent = shadowFrame
+
+local fpsLabel = cloneref(Instance.new("TextLabel")) 
+fpsLabel.Name = "FPSLabel"
+fpsLabel.Size = UDim2.new(1, 0, 0, 50)
+fpsLabel.Position = UDim2.new(0, 0, 0, 0)
+fpsLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fpsLabel.BackgroundTransparency = 1
+fpsLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+fpsLabel.TextScaled = true
+fpsLabel.Text = "FPS: Calculating..."
+fpsLabel.Parent = displayFrame
+
+local pingLabel = cloneref(Instance.new("TextLabel")) 
+pingLabel.Name = "PingLabel"
+pingLabel.Size = UDim2.new(1, 0, 0, 50)
+pingLabel.Position = UDim2.new(0, 0, 0, 50)
+pingLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pingLabel.BackgroundTransparency = 1
+pingLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+pingLabel.TextScaled = true
+pingLabel.Text = "Ping: Calculating..."
+pingLabel.Parent = displayFrame
+
+local lastUpdateTime = 0
+local frameCount = 0
+local fps = 0
+
+rs.RenderStepped:Connect(function(deltaTime)
+    frameCount = frameCount + 1
+    if os.clock() - lastUpdateTime >= 1 then
+        fps = frameCount
+        frameCount = 0
+        lastUpdateTime = os.clock()
+    end
+    fpsLabel.Text = "FPS: " .. tostring(fps)
+
+    local networkStats = kys.Network
+    local ping = math.floor(networkStats.ServerStatsItem["Data Ping"]:GetValue())
+    pingLabel.Text = "Ping: " .. tostring(ping) .. " ms"
+end)
+
+local function tweenToPosition(frame, newPosition)
+    local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+    local tween = imgaynooo:Create(frame, tweenInfo, {Position = newPosition})
+    tween:Play()
+end
+
+local dragging, dragInput, dragStart, startPos
+
+local function update(input)
+    local delta = input.Position - dragStart
+    local newPosition = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    tweenToPosition(displayFrame, newPosition)
+    tweenToPosition(shadowFrame, newPosition + UDim2.new(0, -10, 0, -10))
+end
+
+local function startDragging(input)
+    dragging = true
+    dragStart = input.Position
+    startPos = displayFrame.Position
+
+    input.Changed:Connect(function()
+        if input.UserInputState == Enum.UserInputState.End then
+            dragging = false
+        end
+    end)
+end
+
+displayFrame.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        startDragging(input)
+    end
+end)
+
+displayFrame.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        dragInput = input
+    end
+end)
+
+iloveu.InputChanged:Connect(function(input)
+    if input == dragInput and dragging then
+        update(input)
+    end
+end)
+
+local hue = 0
+rs.Heartbeat:Connect(function()
+    hue = hue + 0.01
+    if hue >= 1 then hue = 0 end
+    local color = Color3.fromHSV(hue, 1, 1)
+    uiStroke.Color = color
+end)
